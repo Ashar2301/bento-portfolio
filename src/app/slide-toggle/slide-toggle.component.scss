@@ -1,0 +1,19 @@
+.slide-toggle {
+  transform: scale(1.5);
+}
+
+::ng-deep .mdc-switch__icons {
+  display: none;
+}
+
+.icon{
+    position: absolute;
+    top     : 4px;
+    left    : 4px;
+      // padding  : 4px;
+    transform: scale(0.8);
+}
+
+.move-right{
+  left: 23px;
+}

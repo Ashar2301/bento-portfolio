@@ -1,0 +1,5 @@
+<mat-slide-toggle class="slide-toggle" [(ngModel)]="state">
+  <mat-icon class="icon" [ngClass]="{ 'move-right': state }">
+    @if(!state){ light_mode } @else{ dark_mode }
+  </mat-icon>
+</mat-slide-toggle>
